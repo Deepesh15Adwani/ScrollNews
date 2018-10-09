@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	 xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<d:MaterialSlider fullscreen="false">
+		<d:MaterialSlideItem>
+		<d:MaterialImage url="" ui:field="a1"/>
+		<d:MaterialSlideCaption textAlign="CENTER">
+		<d:MaterialTitle title="THUMBNAIL"/>
+		</d:MaterialSlideCaption>
+		</d:MaterialSlideItem>
+		</d:MaterialSlider>
+		<d:MaterialTextBox readOnly="true" ui:field="k1" ></d:MaterialTextBox> 
+		<d:MaterialTextBox readOnly="true" ui:field="k2" ></d:MaterialTextBox> 
+		<d:MaterialTextBox readOnly="true" ui:field="k3" ></d:MaterialTextBox> 
+		<d:MaterialButton ui:field="b11"></d:MaterialButton>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

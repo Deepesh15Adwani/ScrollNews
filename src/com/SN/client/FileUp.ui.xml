@@ -1,0 +1,15 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:f="urn:import:gwt.material.design.addins.client" xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+<f:fileuploader.MaterialFileUploader url="/UploadDownloadFileServlet" grid="s7" offset="s5"  >
+<f:fileuploader.MaterialUploadLabel title="drag files to upload" />
+</f:fileuploader.MaterialFileUploader> 
+<d:MaterialButton ui:field="lol" text=""></d:MaterialButton>
+</g:HTMLPanel>
+</ui:UiBinder> 
